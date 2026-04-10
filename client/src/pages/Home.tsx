@@ -53,15 +53,15 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#0f1e2b] via-[#16273a] to-[#0f1e2b] text-white overflow-hidden">
+    <div className="min-h-screen bg-[#1a1819] text-white overflow-hidden">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 bg-[#0f1e2b]/85 backdrop-blur-md border-b border-[#263b52]">
+      <nav className="fixed top-0 w-full z-50 bg-[#1a1819]/85 backdrop-blur-md border-b border-[#2a3f58]">
         <div className="container mx-auto px-8 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img
               src={publicAsset("/logo.png")}
               alt="Attune logo"
-              className="w-10 h-10 rounded-full object-contain bg-[#0f1e2b] p-1 border border-[#263b52]"
+              className="w-10 h-10 rounded-full object-contain bg-[#1a1819] p-1 border border-[#2a3f58]"
             />
             <span className="text-xl font-bold tracking-tight">ATTUNE</span>
           </div>
@@ -134,7 +134,7 @@ export default function Home() {
             </div>
 
             {/* Category Claim */}
-            <div className="pt-12 border-t border-[#263b52]">
+            <div className="pt-12 border-t border-[#2a3f58]">
               <p className="text-white/70 text-sm uppercase tracking-widest mb-3">Category Claim</p>
               <p className="text-2xl font-bold text-[#f6e7d8]">
                 Prosthetic success shouldn't begin on delivery day.
@@ -145,7 +145,7 @@ export default function Home() {
       </section>
 
       {/* The Problem Section */}
-      <section className="py-20 bg-[#1b2f44]/30">
+      <section className="py-20 bg-[#1a1819]/30">
         <div className="container mx-auto px-8">
           <h2 className="text-4xl font-bold mb-4">The Problem</h2>
           <p className="text-white/70 mb-12 max-w-3xl text-lg">
@@ -201,7 +201,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-[#1b2f44] to-[#14263a] rounded-lg p-8 border border-[#2a3f58]">
+            <div className="bg-[#1a1819] rounded-lg p-8 border border-[#2a3f58]">
               <h4 className="text-lg font-bold mb-4 text-[#f6e7d8]">The Gap</h4>
               <div className="space-y-4 text-white/80">
                 <p>
@@ -262,7 +262,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="pt-6 border-t border-[#263b52]">
+              <div className="pt-6 border-t border-[#2a3f58]">
                 <p className="text-sm text-white/70 italic">
                   Attune is not a prosthetic controller. It is a readiness platform.
                 </p>
@@ -271,29 +271,29 @@ export default function Home() {
 
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-[#f6e7d8]/20 to-[#1b2f44]/30 rounded-2xl blur-3xl" />
-              <img
-                src="https://private-us-east-1.manuscdn.com/sessionFile/E6Ns8rHba5mSjpFr61RBie/sandbox/i7mhxMgJ30UZIarsOnPRZF-img-2_1772147977000_na1fn_YXR0dW5lLXhyLXRyYWluaW5n.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvRTZOczhySGJhNW1TanBGcjYxUkJpZS9zYW5kYm94L2k3bWh4TWdKMzBVWklhcnNPblBSWkYtaW1nLTJfMTc3MjE0Nzk3NzAwMF9uYTFmbl9ZWFIwZFc1bExYaHlMWFJ5WVdsdWFXNW4ucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=STTaDwUusUbjDSkvGyt6Bv6ZCuGq-GeS0FupJUsl5KhxPiYHFgd3wR9KiDh6eFXiD5bQTYOoh6rkfoavJByVod319Agpyj3D86hiFdPCbAqBZt8tLAej1b4QMvhtzUBXVZpvc8RYCrz~aXmcGSbwJgdBlcVl5prgrRmCjpD7Sjo0CyLG5b2NFiH6FA7KZl8J9Psm7uSWwz96-5Cet-LRRbGvQI8foGrVxrIqD-6prGtVjwEghUdlDMvaQvgRbDGul1kGMn9UZXIg0x8Oe0e39w~r1ZbqosuDWz5o1fAUj-4gbDr2AiVP~ykZOv1XJljqAeXw9SNQmdiWVht3PVq5bg__"
-                alt="XR Training Interface"
-                className="w-full h-auto rounded-lg shadow-2xl"
-              />
+            <img
+              src={publicAsset("/XRTrainingInterface.png")}
+              alt="XR Training Interface"
+              className="w-full h-auto rounded-lg shadow-2xl"
+            />
             </div>
           </div>
         </div>
       </section>
 
       {/* Product Showcase - Armband */}
-      <section id="product" className="py-20 bg-[#1b2f44]/30">
+      <section id="product" className="py-20 bg-[#1a1819]/30">
         <div className="container mx-auto px-8">
           <h2 className="text-4xl font-bold mb-12">The Hardware</h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#2a3f58]/50 to-[#14263a]/50 rounded-2xl blur-3xl" />
-              <img
-                src="https://private-us-east-1.manuscdn.com/sessionFile/E6Ns8rHba5mSjpFr61RBie/sandbox/i7mhxMgJ30UZIarsOnPRZF-img-1_1772147976000_na1fn_YXR0dW5lLWFybWJhbmQtaW5kdXN0cmlhbA.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvRTZOczhySGJhNW1TanBGcjYxUkJpZS9zYW5kYm94L2k3bWh4TWdKMzBVWklhcnNPblBSWkYtaW1nLTFfMTc3MjE0Nzk3NjAwMF9uYTFmbl9ZWFIwZFc1bExXRnliV0poYm1RdGFXNWtkWE4wY21saGJBLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=KYPdUXOxL2kihZNKAOfHIumCxq8tLF5icz1oTVF8dE8Kp1JT9YoMRIW7IqrMBXmkvJjOz3TbArCUO0x6KEK5X5XeajSDkZs1sBITAtELK1kX-C2fXIdjesvJJdLk4YGsn-89KFiVJ~e27lmkoIArM~1jL1P8VB21H-byOk9d5GjyMeOk8naEMUg5LSj0jtrvc6odsD1Mm3R23pcwv-INCuHWenOOpn-1jnK12VI6Pim~fImh8v4gEG-J1pxJVhYltUOp~d23G1HCNS4p5Ohny18I277Gnp2WDWilQlzBB2HUJbFYivZoFJoeWUOVkAfEx-WYomhn~LNqME4nbacaWg__"
-                alt="EMG Armband"
-                className="w-full h-auto rounded-lg shadow-2xl"
-              />
+              <div className="absolute inset-0 bg-gradient-to-br from-[#1a1819]/50 to-[#1a1819]/50 rounded-2xl blur-3xl" />
+            <img
+              src={publicAsset("/EMGSensorArmband.png")}
+              alt="EMG Sensor Armband"
+              className="w-full h-auto rounded-lg shadow-2xl"
+            />
             </div>
 
             <div className="space-y-6">
@@ -367,7 +367,7 @@ export default function Home() {
               },
             ].map((step, i) => (
               <div key={i} className="relative">
-                <div className="p-6 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58] h-full">
+                <div className="p-6 rounded-lg bg-[#1a1819]/50 border border-[#2a3f58] h-full">
                   <div className="text-4xl font-bold text-[#f6e7d8] mb-3">{step.num}</div>
                   <h3 className="text-lg font-bold mb-2">{step.title}</h3>
                   <p className="text-white/70 text-sm">{step.desc}</p>
@@ -384,12 +384,12 @@ export default function Home() {
       </section>
 
       {/* Clinician Dashboard Showcase */}
-      <section className="py-20 bg-[#1b2f44]/30">
+      <section className="py-20 bg-[#1a1819]/30">
         <div className="container mx-auto px-8">
           <h2 className="text-4xl font-bold mb-12">Clinician Dashboard</h2>
 
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-[#f6e7d8]/20 to-[#1b2f44]/30 rounded-2xl blur-3xl" />
+            <div className="absolute inset-0 bg-gradient-to-br from-[#f6e7d8]/20 to-[#1a1819]/30 rounded-2xl blur-3xl" />
             <img
               src={publicAsset("/dashboard.png")}
               alt="Clinician Dashboard"
@@ -398,19 +398,19 @@ export default function Home() {
           </div>
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-6 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
+            <div className="p-6 rounded-lg bg-[#1a1819]/50 border border-[#2a3f58]">
               <h4 className="font-bold text-[#f6e7d8] mb-2">Patient Readiness Overview</h4>
               <p className="text-white/70 text-sm">
                 Real-time visibility into each patient's activation consistency, engagement levels, and readiness for fitting.
               </p>
             </div>
-            <div className="p-6 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
+            <div className="p-6 rounded-lg bg-[#1a1819]/50 border border-[#2a3f58]">
               <h4 className="font-bold text-[#f6e7d8] mb-2">Engagement Trends</h4>
               <p className="text-white/70 text-sm">
                 Track training compliance, session frequency, and completion rates to predict success outcomes.
               </p>
             </div>
-            <div className="p-6 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
+            <div className="p-6 rounded-lg bg-[#1a1819]/50 border border-[#2a3f58]">
               <h4 className="font-bold text-[#f6e7d8] mb-2">Activation Patterns</h4>
               <p className="text-white/70 text-sm">
                 Detailed muscle activation analytics inform personalized fitting strategies and device programming.
@@ -426,7 +426,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-12">See Attune in Action</h2>
 
           <div className="relative max-w-4xl mx-auto">
-            <div className="relative aspect-video rounded-lg overflow-hidden bg-[#1b2f44] border border-[#2a3f58]">
+            <div className="relative aspect-video rounded-lg overflow-hidden bg-[#1a1819] border border-[#2a3f58]">
               <video className="w-full h-full object-cover" controls playsInline preload="metadata">
                 <source src={publicAsset("/video/attune-video.mp4")} type="video/mp4" />
               </video>
@@ -436,7 +436,7 @@ export default function Home() {
       </section>
 
       {/* Why It Matters */}
-      <section className="py-20 bg-[#1b2f44]/30">
+      <section className="py-20 bg-[#1a1819]/30">
         <div className="container mx-auto px-8">
           <h2 className="text-4xl font-bold mb-4">Why It Matters</h2>
           <p className="text-white/70 mb-12 max-w-3xl text-lg">
@@ -444,7 +444,7 @@ export default function Home() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <div className="p-8 rounded-lg bg-gradient-to-br from-[#1b2f44] to-[#14263a] border border-[#2a3f58]">
+            <div className="p-8 rounded-lg bg-[#1a1819] border border-[#2a3f58]">
               <h3 className="text-2xl font-bold mb-4 text-[#f6e7d8]">Attune Addresses the Earliest Failure Point</h3>
               <p className="text-white/80 leading-relaxed">
                 Untrained muscle intent + unrealistic expectations + blind calibration = early abandonment.
@@ -452,7 +452,7 @@ export default function Home() {
             </div>
 
             <div className="space-y-4">
-              <div className="flex gap-4 items-start p-4 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
+              <div className="flex gap-4 items-start p-4 rounded-lg bg-[#1a1819]/50 border border-[#2a3f58]">
                 <TrendingUp className="w-6 h-6 text-[#f6e7d8] flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-bold">Reduce early frustration</h4>
@@ -460,7 +460,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex gap-4 items-start p-4 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
+              <div className="flex gap-4 items-start p-4 rounded-lg bg-[#1a1819]/50 border border-[#2a3f58]">
                 <Target className="w-6 h-6 text-[#f6e7d8] flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-bold">Improve control consistency</h4>
@@ -468,7 +468,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex gap-4 items-start p-4 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
+              <div className="flex gap-4 items-start p-4 rounded-lg bg-[#1a1819]/50 border border-[#2a3f58]">
                 <Users className="w-6 h-6 text-[#f6e7d8] flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-bold">Increase sustained use</h4>
@@ -478,7 +478,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="p-8 rounded-lg bg-gradient-to-r from-[#f6e7d8]/10 to-[#1b2f44]/20 border border-[#f6e7d8]/30">
+          <div className="p-8 rounded-lg bg-gradient-to-r from-[#f6e7d8]/10 to-[#1a1819]/20 border border-[#f6e7d8]/30">
             <p className="text-lg text-white/80 italic font-medium">
               We are building the missing layer between surgery and fitting.
             </p>
@@ -494,7 +494,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="space-y-6">
               <div>
-                <p className="text-white/70 text-sm mb-2">TAM</p>
+                <p className="text-white/70 text-sm mb-2">Total Addressable Market</p>
                 <p className="text-3xl font-bold">~2M people</p>
                 <p className="text-white/70">living with limb loss in the U.S. (Caruso and Harrington, 2024)</p>
               </div>
@@ -512,7 +512,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="p-8 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
+            <div className="p-8 rounded-lg bg-[#1a1819]/50 border border-[#2a3f58]">
               <h3 className="text-xl font-bold mb-6">B2B2C Platform Model</h3>
               <div className="space-y-4">
                 <div>
@@ -534,7 +534,7 @@ export default function Home() {
       </section>
 
       {/* Traction Section */}
-      <section className="py-20 bg-[#1b2f44]/30">
+      <section className="py-20 bg-[#1a1819]/30">
         <div className="container mx-auto px-8">
           <h2 className="text-4xl font-bold mb-12">Traction & Validation</h2>
 
@@ -545,7 +545,7 @@ export default function Home() {
               { label: "Clinical conversations initiated", icon: "🤝" },
               { label: "NEXUS 2026 launch planned", icon: "🚀" },
             ].map((item, i) => (
-              <div key={i} className="p-6 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58] text-center">
+                <div key={i} className="p-6 rounded-lg bg-[#1a1819]/50 border border-[#2a3f58] text-center">
                 <div className="text-4xl mb-3">{item.icon}</div>
                 <p className="font-semibold text-white/80">{item.label}</p>
               </div>
@@ -560,7 +560,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-12">Roadmap</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="p-8 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
+            <div className="p-8 rounded-lg bg-[#1a1819]/50 border border-[#2a3f58]">
               <h3 className="text-2xl font-bold text-[#f6e7d8] mb-6">2026</h3>
               <ul className="space-y-3 text-white/80">
                 <li className="flex gap-3 items-start">
@@ -578,7 +578,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="p-8 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
+            <div className="p-8 rounded-lg bg-[#1a1819]/50 border border-[#2a3f58]">
               <h3 className="text-2xl font-bold text-[#f6e7d8] mb-6">2027 & Beyond</h3>
               <ul className="space-y-3 text-white/80">
                 <li className="flex gap-3 items-start">
@@ -600,7 +600,7 @@ export default function Home() {
       </section>
 
       {/* Competitive Positioning */}
-      <section className="py-20 bg-[#1b2f44]/30">
+      <section className="py-20 bg-[#1a1819]/30">
         <div className="container mx-auto px-8">
           <h2 className="text-4xl font-bold mb-12">Competitive Positioning</h2>
 
@@ -632,7 +632,7 @@ export default function Home() {
                     ours: "Prosthetic-specific adaptation",
                   },
                 ].map((row, i) => (
-                  <tr key={i} className="border-b border-[#263b52] hover:bg-[#1b2f44]/30 transition-colors">
+                  <tr key={i} className="border-b border-[#2a3f58] hover:bg-[#1a1819]/30 transition-colors">
                     <td className="py-4 px-4 font-semibold">{row.cat}</td>
                     <td className="py-4 px-4 text-white/70">{row.their}</td>
                     <td className="py-4 px-4 text-[#f6e7d8]">{row.ours}</td>
@@ -642,7 +642,7 @@ export default function Home() {
             </table>
           </div>
 
-          <div className="mt-8 p-6 rounded-lg bg-gradient-to-r from-[#f6e7d8]/10 to-[#1b2f44]/20 border border-[#f6e7d8]/30">
+          <div className="mt-8 p-6 rounded-lg bg-gradient-to-r from-[#f6e7d8]/10 to-[#1a1819]/20 border border-[#f6e7d8]/30">
             <p className="text-lg text-white/80 font-semibold">
               We define the pre-prosthetic training category.
             </p>
@@ -666,7 +666,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member, i) => (
-              <div key={i} className="p-8 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
+              <div key={i} className="p-8 rounded-lg bg-[#1a1819]/50 border border-[#2a3f58]">
                 <img
                   src={member.photo || publicAsset("/logo.png")}
                   alt={member.name}
@@ -694,7 +694,7 @@ export default function Home() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 bg-[#1b2f44]/30">
+      <section className="py-20 bg-[#1a1819]/30">
         <div className="container mx-auto px-8">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-6">The Future of Prosthetic Success Starts Earlier</h2>
@@ -714,7 +714,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-[#263b52] py-12 bg-[#0f1e2b]">
+      <footer className="border-t border-[#2a3f58] py-12 bg-[#1a1819]">
         <div className="container mx-auto px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
@@ -722,7 +722,7 @@ export default function Home() {
                 <img
                   src={publicAsset("/logo.png")}
                   alt="Attune logo"
-                  className="w-8 h-8 rounded-full object-contain bg-[#0f1e2b] p-1 border border-[#263b52]"
+                  className="w-8 h-8 rounded-full object-contain bg-[#1a1819] p-1 border border-[#2a3f58]"
                 />
                 <h4 className="font-bold">Attune</h4>
               </div>
@@ -769,7 +769,7 @@ export default function Home() {
               <h4 className="font-semibold mb-4 text-[#f6e7d8]">Contact</h4>
               <ul className="space-y-2 text-white/70 text-sm">
                 <li>
-                  <a href="mailto:ayang46@asu.edu" className="hover:text-[#f6e7d8] transition-colors">
+                  <a href="mailto:info.attune.care@gmail.com" className="hover:text-[#f6e7d8] transition-colors">
                     Email
                   </a>
                 </li>
@@ -777,7 +777,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="border-t border-[#263b52] pt-8 flex flex-col sm:flex-row items-center justify-between">
+          <div className="border-t border-[#2a3f58] pt-8 flex flex-col sm:flex-row items-center justify-between">
             <p className="text-white/50 text-sm">© 2026 Attune LLC. All rights reserved.</p>
             <p className="text-white/50 text-sm">The Luminosity Lab</p>
           </div>

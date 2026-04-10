@@ -44,22 +44,22 @@
 
 :root {
   --primary: #F6E7D8;
-  --primary-foreground: #1B2F44;
+  --primary-foreground: #1a1819;
   --sidebar-primary: #F6E7D8;
-  --sidebar-primary-foreground: #1B2F44;
+  --sidebar-primary-foreground: #1a1819;
   --chart-1: #F6E7D8;
   --chart-2: #1B2F44;
   --chart-3: #FFFFFF;
   --chart-4: #14263A;
   --chart-5: #2A3F58;
   --radius: 0.65rem;
-  --background: #0F1E2B;
+  --background: #1a1819;
   --foreground: #FFFFFF;
-  --card: #14263A;
+  --card: #1a1819;
   --card-foreground: #FFFFFF;
-  --popover: #14263A;
+  --popover: #1a1819;
   --popover-foreground: #FFFFFF;
-  --secondary: #1B2F44;
+  --secondary: #1a1819;
   --secondary-foreground: #FFFFFF;
   --muted: #243A52;
   --muted-foreground: #D3DAE3;
@@ -80,10 +80,10 @@
 
 .dark {
   --primary: #F6E7D8;
-  --primary-foreground: #1B2F44;
+  --primary-foreground: #1a1819;
   --sidebar-primary: #F6E7D8;
   --sidebar-primary-foreground: #1B2F44;
-  --background: #0F1E2B;
+  --background: #1a1819;
   --foreground: #FFFFFF;
   --card: #14263A;
   --card-foreground: #FFFFFF;

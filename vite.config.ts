@@ -6,7 +6,6 @@ import { defineConfig } from "vite";
 const plugins = [react(), tailwindcss()];
 
 export default defineConfig({
-  base: "/attune-website/",
   plugins,
   resolve: {
     alias: {
